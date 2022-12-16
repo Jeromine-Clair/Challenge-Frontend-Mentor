@@ -1,0 +1,97 @@
+
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 100vw;
+    height: 100vh;
+    padding: 10rem 10rem;
+}
+
+.card {
+    /*border: 2px solid black;*/
+    width: 585px;
+    height: 438px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.card__image {
+    background-image: url("../images/image-product-desktop.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+
+}
+
+#card__content {
+    font-size: 0.9rem;
+    color: hsl(228, 12%, 48%);
+    width: 50%;
+    padding: 1.8rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card__content-title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: hsl(228, 12%, 48%);
+    padding-bottom: 1rem;
+}
+
+.card__content-title1 {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: hsl(212, 21%, 14%);
+    padding-bottom: 1.5rem;
+}
+.card__content-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.4rem;
+    padding-bottom: 1.5rem;
+}
+
+.card__content-prices {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.card__content-old-price {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    padding-left: 1.5rem;     
+}
+
+.card__content-add-to-cart {
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.card__content-link {
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
